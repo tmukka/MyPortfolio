@@ -2,9 +2,10 @@ import React from 'react';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import RaisedButton from 'material-ui/RaisedButton';
-import logo from './DSC_2197.jpg';
-import github from './github.svg';
-import linkedin from './linkedin-logo.svg';
+import logo from './../DSC_2197.jpg';
+import github from './../github.svg';
+import linkedin from './../linkedin-logo.svg';
+import { NavLink } from 'react-router-dom';
 
 const Sidenav = () => {
     var divStyle = {
@@ -18,10 +19,10 @@ const Sidenav = () => {
                 <div style={divStyle}>
                     <img src={logo} className="App-logo" alt="logo" />
                 </div>
-                <MenuItem>Home</MenuItem>
-                <MenuItem>Work</MenuItem>
-                <MenuItem>Intrests</MenuItem>
-                <MenuItem>About</MenuItem>
+                <NavLink to = "/Home"><MenuItem>Home</MenuItem></NavLink>
+                <NavLink to = "/Work"><MenuItem>Work</MenuItem></NavLink>
+                <NavLink to = "/Intrests"><MenuItem>Intrests</MenuItem></NavLink>
+                <NavLink to = "/About"><MenuItem>About</MenuItem></NavLink>
                 <div>
                     <ul className = "list">
                     <li>
@@ -30,12 +31,12 @@ const Sidenav = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" className="nav-link" target="_blank">
+                        <a href="https://github.com/tmukka" className="nav-link" target="_blank">
                             <i className="fa fa-github icon fa-2x"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="" className="nav-link" target="_blank">
+                        <a href="https://www.linkedin.com/in/tharunmukka1/" className="nav-link" target="_blank">
                             <i className="fa fa-linkedin-square icon fa-2x"></i>
                         </a>
                     </li>
@@ -47,7 +48,6 @@ const Sidenav = () => {
                     </ul>
                 </div>
             </Drawer>
-            <h1>Hi, I am Mukka Tharun</h1>
         </div>
     );
 }
