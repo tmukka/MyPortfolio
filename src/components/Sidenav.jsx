@@ -20,9 +20,9 @@ const Sidenav = () => {
                     <img src={logo} className="App-logo" alt="logo" />
                 </div>
                 <NavLink to = "/Home"><MenuItem>Home</MenuItem></NavLink>
+                <NavLink to = "/Code"><MenuItem>Code</MenuItem></NavLink>
                 <NavLink to = "/Work"><MenuItem>Work</MenuItem></NavLink>
                 <NavLink to = "/Intrests"><MenuItem>Intrests</MenuItem></NavLink>
-                <NavLink to = "/About"><MenuItem>About</MenuItem></NavLink>
                 <div>
                     <ul className = "list">
                     <li>

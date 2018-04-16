@@ -6,9 +6,9 @@ import { BrowserRouter, NavLink, Route } from 'react-router-dom';
 
 import Sidenav from './components/Sidenav';
 import Home from './components/Home';
-import Work from './components/About';
+import Work from './components/Work';
 import Intrests from './components/Intrests';
-import About from './components/About';
+import Code from './components/Code';
 
 class App extends Component {
   render() {
@@ -17,11 +17,11 @@ class App extends Component {
         <BrowserRouter>
           <div className="App">
             <Sidenav />
-            <Route exact path='/' component={Home} />
+            <Route exact path='/MyPortfolio' component={Home} />
             <Route path='/Home' component={Home} />
             <Route path='/Work' component={Work} />
             <Route path='/Intrests' component={Intrests} />
-            <Route path='/About' component={About} />
+            <Route path='/Code' component={Code} />
           </div>
         </BrowserRouter>
       </MuiThemeProvider>

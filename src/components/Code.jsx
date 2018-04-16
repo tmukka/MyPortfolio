@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const Code = () => {
     var divcss = {
         paddingLeft: '20%',
         paddingTop: '10%',
@@ -18,4 +18,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default Code;
