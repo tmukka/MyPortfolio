@@ -17,7 +17,8 @@ const Sidenav = () => {
             <Drawer>
                 <h1>PORTFOLIO</h1>
                 <div style={divStyle}>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src={logo} className="image" alt="logo" />
+                    {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 </div>
                 <NavLink to = "/Home"><MenuItem>Home</MenuItem></NavLink>
                 <NavLink to = "/Code"><MenuItem>Code</MenuItem></NavLink>

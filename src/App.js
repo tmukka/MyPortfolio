@@ -19,6 +19,7 @@ class App extends Component {
             <Sidenav />
             <Route exact path='/MyPortfolio' component={Home} />
             <Route path='/Home' component={Home} />
+            <Route exact path='/' component={Home} />
             <Route path='/Work' component={Work} />
             <Route path='/Intrests' component={Intrests} />
             <Route path='/Code' component={Code} />
