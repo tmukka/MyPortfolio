@@ -1,10 +1,12 @@
 {
-  "main.css": "static/css/main.76b7c223.css",
-  "main.css.map": "static/css/main.76b7c223.css.map",
-  "main.js": "static/js/main.c1efed33.js",
-  "main.js.map": "static/js/main.c1efed33.js.map",
+  "main.css": "static/css/main.c612e2f6.css",
+  "main.css.map": "static/css/main.c612e2f6.css.map",
+  "main.js": "static/js/main.62493783.js",
+  "main.js.map": "static/js/main.62493783.js.map",
   "static\\media\\DSC_2197.jpg": "static/media/DSC_2197.249720f7.jpg",
   "static\\media\\github.svg": "static/media/github.9329315b.svg",
   "static\\media\\linkedin-logo.svg": "static/media/linkedin-logo.e3f8bbf2.svg",
-  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg"
+  "static\\media\\logo.svg": "static/media/logo.ee7cd8ed.svg",
+  "static\\media\\myportfolio.jpg": "static/media/myportfolio.81aa0dd2.jpg",
+  "static\\media\\newplot.jpg": "static/media/newplot.2d31ef83.jpg"
 }
